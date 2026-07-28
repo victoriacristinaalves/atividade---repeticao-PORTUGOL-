@@ -6,17 +6,14 @@ programa
         inteiro pares = 0
         inteiro impares = 0
 
-        para (inteiro i = 1; i <= 5; i++)
-        {
+        para (inteiro i = 1; i <= 5; i++) {
             escreva("Digite o ", i, "º número: ")
             leia(numero)
 
-            se (numero % 2 == 0)
-            {
+            se (numero % 2 == 0) {
                 pares++
             }
-            senao
-            {
+            senao {
                 impares++
             }
         }
@@ -30,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 539; 
+ * @POSICAO-CURSOR = 366; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
