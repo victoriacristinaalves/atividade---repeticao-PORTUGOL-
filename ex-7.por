@@ -2,31 +2,20 @@ programa
 {
     funcao inicio()
     {
-        inteiro primeiro = 0
-        inteiro segundo = 1
+        inteiro anterior = 0
+        inteiro atual = 1
         inteiro proximo
 
-        escreva(primeiro, ", ", segundo, ", ")
+        escreva(anterior, ", ", atual, ", ")
 
-        proximo = primeiro + segundo
+        proximo = anterior + atual
 
-        enquanto (proximo <= 500) {
+        enquanto (proximo <= 610) {
             escreva(proximo, ", ")
 
-            primeiro = segundo
-            segundo = proximo
-            proximo = primeiro + segundo
+            anterior = atual
+            atual = proximo
+            proximo = anterior + atual
         }
     }
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 239; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
