@@ -18,9 +18,9 @@ programa
 	funcao calcularPotencia(inteiro base, inteiro expoente)
 	{
 
-		inteiro resultado = 1
+		inteiro resultado
 
-		//resultado = 1
+		resultado = 1
 
 		para(inteiro i = 1; i <= expoente; i++){
 			resultado = resultado * base
